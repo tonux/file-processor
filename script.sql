@@ -1,0 +1,10 @@
+CREATE DATABASE db_users;
+
+CREATE TABLE PERSON
+(
+    ID int PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    NOM varchar(255),
+    PRENOM varchar(255),
+    PASSWORD varchar(255),
+    EMAIL VARCHAR(50)
+);
